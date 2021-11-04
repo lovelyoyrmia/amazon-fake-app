@@ -6,7 +6,7 @@ import { useStateValue } from './StateProvider'
 import { auth } from '../firebase/firebase'
 
 function Header() {
-
+  // eslint-disable-next-line
   const [{basket, user}, _] = useStateValue()
 
   const handleAuth = () => {

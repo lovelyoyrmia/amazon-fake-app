@@ -5,7 +5,7 @@ import { useStateValue } from './StateProvider'
 import Subtotal from './Subtotal'
 
 function Checkout() {
-
+  // eslint-disable-next-line
   const [{basket}, dispatch] = useStateValue()
 
   useEffect(() => {
